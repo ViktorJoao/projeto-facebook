@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+img{
+    display: block;
+    margin: auto;
+}
+section > h3{
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+section{
+    width: 400px;
+    height: 405px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+}
+div{
+    padding: 15px;
+    padding-bottom: 3px;
+}
+div#caixa-entrar{
+    padding-top: 10px;
+}
+div > a{
+    display: block;
+    font-size: .9em;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.61);
+}
+div > p{
+    text-align: center;
+    font-size: .9em;
+}
+#botao-entrar{
+    background-color: rgb(86, 86, 241);
+    width: 365px;
+    height: 35px;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botao-entrar:hover{
+    background-color: rgba(0, 0, 255, 0.842);
+}
+#botao-criar-conta{
+    display: block;
+    background-color: rgba(2, 151, 2, 0.705);
+    margin: auto;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 177, 1);
+    color: white;
+    font-size: 1em;
+}
+#botao-criar-conta:hover{
+    background-color: rgba(2, 199, 2, 0.705);
+}
+.caixa{
+    width: 336px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 202, 202);
+    font-size: 1em;
+}
